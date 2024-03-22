@@ -1,0 +1,192 @@
+@media only screen and (max-width: 375px) {
+    .first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second,
+    .third {
+        width: 100%;
+        margin: 10px auto;
+
+    }
+}
+
+p {
+    font-size: 18px;
+
+}
+
+.number {
+    margin-left: 40%;
+    color: hsl(240, 7%, 53%);
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    color: white;
+    background-color: rgb(3, 5, 72);
+    border-radius: 25px;
+    padding: 0px 5px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    color: white;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 25px;
+    padding: 0px 5px;
+    margin: 15px;
+    font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    
+}
+
+div.first {
+    border-radius: 25px;
+    display: flex;
+    width: 600px;
+    text-align: center;
+    box-shadow: 10px 15px 20px rgba(86, 106, 255, 0.367);
+    justify-content: center;
+
+}
+
+div.second {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background: radial-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+h3 {
+    color: hsl(241, 100%, 89%);
+}
+
+.circle-number {
+    border-radius: 100%;
+    background: radial-gradient(hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 18px;
+}
+
+.strong-circle-number-1 {
+    color: white;
+    font-size: 50px;
+}
+
+.strong-circle-number-2 {
+    color: hsl(241, 100%, 80%)
+}
+
+h2.great {
+    color: white;
+    width: 220px;
+}
+
+p.paragraph-div-first {
+    color: hsl(241, 100%, 85%);
+    padding: 15px;
+}
+
+div.third {
+    border-radius: 25px;
+    width: 300px;
+    padding: 25px;
+    text-align: left;
+}
+
+.first-item {
+    display: flex;
+    background-color: hsl(0, 100%, 96%);
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+.second-item {
+    display: flex;
+    background-color: hsl(39, 100%, 96%);
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+.third-item {
+    display: flex;
+    background-color: hsl(166, 100%, 96%);
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+.fourd-item {
+    display: flex;
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+img {
+    padding: 10px;
+}
+
+p.reaction {
+    width: 40px;
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+}
+
+p.memory {
+    width: 40px;
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+}
+
+p.verbal {
+    width: 40px;
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+}
+
+p.visual {
+    width: 40px;
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+}
+
+strong.strong-number {
+    font-weight: bold;
+    color: rgb(3, 5, 72);
+}
